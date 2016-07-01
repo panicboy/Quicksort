@@ -1,5 +1,3 @@
-
-
 function sortyMcQuickSort(theArray) {
   var pivot;
   var leftArray;
@@ -17,10 +15,9 @@ function sortyMcQuickSort(theArray) {
   return sortyMcQuickSort(leftArray).concat(pivot, sortyMcQuickSort(rightArray));
 }
 
-var randomArray = randomNumberArray(15, 50);
-console.log('unsorted array: ', randomArray);
-console.log('sorted: ', sortyMcQuickSort(randomArray));
-// var sortValues = randomNumberArray(20, 20);
+// var randomArray = randomNumberArray(15, 50);
+// console.log('unsorted array: ', randomArray);
+// console.log('sorted: ', sortyMcQuickSort(randomArray));
 
 function randomNumberArray(num, max){
   var arrayOfNumbers = [];
@@ -30,4 +27,3 @@ function randomNumberArray(num, max){
   }
   return arrayOfNumbers;
 }
-
