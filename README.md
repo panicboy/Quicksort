@@ -17,8 +17,8 @@
 5. When there are no partitions with more than one number left, recursively join the elements in this order: [_less than_ **pivot** + **pivot** + _greater than_ **pivot**]
 6. _(optional)_ ParTAY!
 
-
 In your own words, describe the performance of the alogirthm for the following cases:
+=======
   * Best case scenario
   * Worst case scenario
 
